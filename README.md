@@ -1,5 +1,11 @@
 <div align="center">
 
+![Memento AI Header](./images/memento-ai-header.svg)
+
+# MEMENTO AI: When Your AI Has Amnesia 🧠💾
+
+## 🤖 Claude Agents - Enterprise AI Development Ecosystem"center">
+
 ![Memento AI Header](https://github.com/rhahn28/Claude_Agents/assets/memento-ai-header.jpg)
 
 # MEMENTO AI: When Your AI Has Amnesia 🧠💾align="center">
