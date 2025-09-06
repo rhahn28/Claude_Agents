@@ -1,6 +1,6 @@
 <div align="center">
 
-![Memento AI Header](./images/memento-ai-header.svg)
+![Memento AI Header](./images/image.png)
 
 # MEMENTO AI: When Your AI Has Amnesia 🧠💾
 
