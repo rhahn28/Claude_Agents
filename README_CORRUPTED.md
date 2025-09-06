@@ -1,10 +1,22 @@
-<div align="center">
+<div a## 🤖 Claude Agents - Enterprise AI Development Ecosystem
+
+![Claude Agents](https://img.shields.io/badge/Claude-Agents-blue?style=for-the-badge&logo=anthropic)>
 
 ![Memento AI Header](./images/image.png)
 
 # MEMENTO AI: When Your AI Has Amnesia 🧠💾
 
-## 🤖 Claude Agents - Enterprise AI Development Ecosystem
+## 🤖 Claude Agents - Enterprise AI Development Ecosystem"center">
+
+![Memento AI Header](https://github.com/rhahn28/Claude_Agents/assets/memento-ai-header.jpg)
+
+# MEMENTO AI: When Your AI Has Amnesia 🧠💾align="center">
+
+![Memento AI Header](./memento-header.jpg)
+
+# MEMENTO AI: When Your AI Has Amnesia �💾
+
+## �🤖 Claude Agents - Enterprise AI Development Ecosystem
 
 ![Claude Agents](https://img.shields.io/badge/Claude-Agents-blue?style=for-the-badge&logo=anthropic)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
@@ -20,6 +32,46 @@ Meet Leonard. He can't form new memories past 15 minutes. Now meet your AI - it 
 **But what if Leonard had a photographic memory assistant?**
 
 *Enter Claude Agents - Because your AI shouldn't forget you exist every 8,000 tokens.*
+
+</div>
+
+---
+
+## 🧠 The Problem: AI Amnesia
+
+```mermaid
+graph LR
+    A[💬 "Fix the login bug"] --> B[🤖 "What login? What app?"]
+    B --> C[😤 Copy-paste entire context]
+    C --> D[💬 "Remember: React app, Express backend, MongoDB..."]
+    D --> E[🤖 "Oh right! Let me forget this in 5 minutes"]
+    E --> A
+    
+    style A fill:#ffebee
+    style B fill:#ffebee
+    style E fill:#ffebee
+```
+
+**Sound familiar?** Every developer has been there:
+
+- 🔄 **Explaining your project 47 times**: "It's a React app with Express backend..."
+- 📋 **Copy-pasting context**: Your messages look like novels with backstory
+- 🤦‍♂️ **AI Confidence vs Reality**: "As we discussed..." (Narrator: *They never discussed it*)
+- 💾 **Digital Hoarding**: Saving every conversation because AI won't remember
+
+---
+
+## ⚡ The Solution: Persistent AI Memory
+
+**Claude Agents** = Leonard with a photographic memory assistant
+
+✨ **Project Memory**: Remembers your entire codebase, not just the last 20 messages
+🔄 **Context Persistence**: Every conversation builds on the last  
+🧩 **Smart Integration**: No more explaining your tech stack daily
+🎯 **Specialized Expertise**: 50+ agents that remember their specializations
+🔒 **Quality Enforcement**: Zero tolerance for "TODO" and placeholder code
+
+*A comprehensive collection of specialized AI agents for enterprise software development with advanced orchestration, containerization, and quality enforcement*
 
 </div>
 
@@ -67,10 +119,10 @@ Instead of sticky notes → **Smart Agent Coordination**
 
 ## 📋 Table of Contents
 
-- [🎬 The Viral Truth](#-the-viral-truth-your-ai-is-leonard-shelby)
+- [� The Viral Truth](#-the-viral-truth-your-ai-is-leonard-shelby)
 - [🧠 The Problem: AI Amnesia](#-the-problem-ai-amnesia)
 - [⚡ The Solution: Persistent AI Memory](#-the-solution-persistent-ai-memory)
-- [🎯 Overview](#-overview)
+- [�🎯 Overview](#-overview)
 - [🏗️ Architecture](#️-architecture)
 - [🤖 Agent Categories](#-agent-categories)
 - [🔧 Installation](#-installation)
@@ -127,44 +179,6 @@ sequenceD​iagram
 - 🎯 **Specialized Expertise**: Right agent for every task
 - 🔄 **Smart Coordination**: Agents work together seamlessly
 - 🐳 **Quality Enforcement**: No shortcuts, no placeholders
-
----
-
-## 🧠 The Problem: AI Amnesia
-
-```mermaid
-graph LR
-    A[💬 "Fix the login bug"] --> B[🤖 "What login? What app?"]
-    B --> C[😤 Copy-paste entire context]
-    C --> D[💬 "Remember: React app, Express backend, MongoDB..."]
-    D --> E[🤖 "Oh right! Let me forget this in 5 minutes"]
-    E --> A
-    
-    style A fill:#ffebee
-    style B fill:#ffebee
-    style E fill:#ffebee
-```
-
-**Sound familiar?** Every developer has been there:
-
-- 🔄 **Explaining your project 47 times**: "It's a React app with Express backend..."
-- 📋 **Copy-pasting context**: Your messages look like novels with backstory
-- 🤦‍♂️ **AI Confidence vs Reality**: "As we discussed..." (Narrator: *They never discussed it*)
-- 💾 **Digital Hoarding**: Saving every conversation because AI won't remember
-
----
-
-## ⚡ The Solution: Persistent AI Memory
-
-**Claude Agents** = Leonard with a photographic memory assistant
-
-✨ **Project Memory**: Remembers your entire codebase, not just the last 20 messages
-🔄 **Context Persistence**: Every conversation builds on the last  
-🧩 **Smart Integration**: No more explaining your tech stack daily
-🎯 **Specialized Expertise**: 50+ agents that remember their specializations
-🔒 **Quality Enforcement**: Zero tolerance for "TODO" and placeholder code
-
-*A comprehensive collection of specialized AI agents for enterprise software development with advanced orchestration, containerization, and quality enforcement*
 
 ---
 
