@@ -1,0 +1,187 @@
+{
+  "claude.hooks": {
+    "PreToolUse": [
+      {
+        "command": "python",
+        "args": ["C:\\Users\\rhahn\\.claude\\hooks\\python-agent-hooks.py"],
+        "condition": {
+          "agentName": ["python-pro", "django-expert", "fastapi-expert", "flask-expert"]
+        }
+      },
+      {
+        "command": "python",
+        "args": ["C:\\Users\\rhahn\\.claude\\hooks\\frontend-agent-hooks.py"],
+        "condition": {
+          "agentName": ["react-pro", "vue-expert", "angular-expert", "frontend-specialist", "nextjs-pro", "nuxt-expert"]
+        }
+      },
+      {
+        "command": "python",
+        "args": ["C:\\Users\\rhahn\\.claude\\hooks\\infrastructure-agent-hooks.py"],
+        "condition": {
+          "agentName": ["docker-expert", "devops-engineer", "kubernetes-expert", "terraform-expert", "aws-expert", "azure-expert", "gcp-expert"]
+        }
+      },
+      {
+        "command": "python",
+        "args": ["C:\\Users\\rhahn\\.claude\\hooks\\security-agent-hooks.py"],
+        "condition": {
+          "agentName": ["security-auditor", "compliance-officer", "penetration-tester"]
+        }
+      },
+      {
+        "command": "python",
+        "args": ["C:\\Users\\rhahn\\.claude\\hooks\\database-agent-hooks.py"],
+        "condition": {
+          "agentName": ["database-expert", "mongodb-expert", "postgres-expert", "sql-expert", "redis-expert"]
+        }
+      },
+      {
+        "command": "python",
+        "args": ["C:\\Users\\rhahn\\.claude\\hooks\\business-agent-hooks.py"],
+        "condition": {
+          "agentName": ["business-analyst", "requirements-analyst", "api-designer", "product-manager"]
+        }
+      },
+      {
+        "command": "python",
+        "args": ["C:\\Users\\rhahn\\.claude\\hooks\\testing-agent-hooks.py"],
+        "condition": {
+          "agentName": ["test-automation-expert", "qa-specialist", "performance-engineer"]
+        }
+      },
+      {
+        "command": "python",
+        "args": ["C:\\Users\\rhahn\\.claude\\hooks\\mobile-agent-hooks.py"],
+        "condition": {
+          "agentName": ["swift-expert", "kotlin-expert", "react-native-expert", "flutter-expert", "ios-expert", "android-expert"]
+        }
+      },
+      {
+        "command": "python",
+        "args": ["C:\\Users\\rhahn\\.claude\\hooks\\game-agent-hooks.py"],
+        "condition": {
+          "agentName": ["unity-expert", "unreal-expert", "game-designer", "game-developer"]
+        }
+      },
+      {
+        "command": "python",
+        "args": ["C:\\Users\\rhahn\\.claude\\hooks\\data-ai-agent-hooks.py"],
+        "condition": {
+          "agentName": ["data-scientist", "ml-engineer", "ai-researcher", "data-analyst", "data-engineer"]
+        }
+      },
+      {
+        "command": "python",
+        "args": ["C:\\Users\\rhahn\\.claude\\hooks\\creative-agent-hooks.py"],
+        "condition": {
+          "agentName": ["ui-ux-designer", "technical-writer", "content-strategist", "brand-specialist"]
+        }
+      }
+    ],
+    "PostToolUse": [
+      {
+        "command": "python",
+        "args": ["C:\\Users\\rhahn\\.claude\\hooks\\orchestration-sync-hook.py"],
+        "condition": {
+          "toolName": ["Write", "Edit", "MultiEdit"]
+        }
+      }
+    ],
+    "SessionStart": [
+      {
+        "command": "python",
+        "args": ["C:\\Users\\rhahn\\.claude\\hooks\\session-init-hook.py"]
+      }
+    ]
+  },
+  "claude.orchestration": {
+    "enableWorkStatus": true,
+    "workStatusPath": "WORK_STATUS.md",
+    "enableAgentCoordination": true,
+    "coordinationIndexPath": "orchestration-index.md",
+    "containerizationRequired": true,
+    "dockerExpertGatekeeper": true,
+    "humanInTheLoop": {
+      "enabled": true,
+      "riskLevels": ["HIGH", "CRITICAL"],
+      "confirmationTypes": ["SECURITY", "DATA_LOSS", "BREAKING_CHANGE"]
+    }
+  },
+  "claude.validation": {
+    "enableFileValidation": true,
+    "enableSecurityScanning": true,
+    "enablePerformanceChecks": true,
+    "enableComplianceChecks": true,
+    "blockOnCriticalIssues": true,
+    "requireConfirmationThreshold": "MEDIUM"
+  },
+  "claude.agentSpecific": {
+    "python": {
+      "requireVirtualEnv": true,
+      "enforceCodeStyle": "PEP8",
+      "securityScanning": true,
+      "complexityThreshold": 10
+    },
+    "frontend": {
+      "accessibilityChecks": true,
+      "performanceOptimization": true,
+      "securityValidation": true,
+      "crossBrowserTesting": false
+    },
+    "infrastructure": {
+      "securityHardening": true,
+      "costOptimization": true,
+      "complianceValidation": true,
+      "backupValidation": true
+    },
+    "security": {
+      "secretsDetection": true,
+      "vulnerabilityScanning": true,
+      "complianceChecking": true,
+      "threatModeling": false
+    },
+    "database": {
+      "injectionPrevention": true,
+      "performanceOptimization": true,
+      "dataIntegrityChecks": true,
+      "backupValidation": true
+    },
+    "business": {
+      "requirementsTraceability": true,
+      "apiDesignValidation": true,
+      "businessLogicValidation": true,
+      "complianceChecking": true
+    },
+    "testing": {
+      "coverageValidation": true,
+      "qualityChecking": true,
+      "performanceTesting": false,
+      "automationBestPractices": true
+    },
+    "mobile": {
+      "performanceOptimization": true,
+      "batteryUsageOptimization": true,
+      "accessibilityValidation": true,
+      "securityHardening": true
+    },
+    "gamedev": {
+      "performanceOptimization": true,
+      "memoryManagement": true,
+      "mechanicsValidation": true,
+      "assetOptimization": true
+    },
+    "dataai": {
+      "dataQualityValidation": true,
+      "modelValidation": true,
+      "ethicsCompliance": true,
+      "reproducibilityChecks": true
+    },
+    "creative": {
+      "designSystemCompliance": true,
+      "brandConsistency": true,
+      "accessibilityValidation": true,
+      "assetOptimization": true
+    }
+  }
+}
