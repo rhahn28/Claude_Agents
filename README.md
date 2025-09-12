@@ -945,14 +945,6 @@ Remember Everything. Build Anything. *No Tattoos Required.*
 [![View Agents](https://img.shields.io/badge/View%20Agents-Gallery-green?style=for-the-badge&logo=robot)](./agents/)
 [![Read Docs](https://img.shields.io/badge/Read%20Docs-Full%20Guide-orange?style=for-the-badge&logo=book)](./docs/)
 
-### 📱 **Share the AI Memory Revolution**
-
-```
-🔥 Viral Elements:
-#MementoAI #ContextWindowProblems #ClaudeCode #AIAmnesia #DevLife
-"OMG this is literally me with ChatGPT" 😂
-```
-
 
 </div>
 
