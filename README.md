@@ -925,18 +925,9 @@ Data/AI:          6 agents (12%)
 
 ---
 
-## 📞 Support
-
-### 🔗 Quick Links
-
-- 📖 [Documentation](./docs/)
-- 🐛 [Issue Tracker](https://github.com/rhahn28/Claude_Agents/issues)
-- 💬 [Discussions](https://github.com/rhahn28/Claude_Agents/discussions)
-- 🚀 [Examples](./examples/)
-
 ### 📧 Contact
 
-- **Author**: rhahn28
+- **Author**: rhahn@metasalt.io
 - **Repository**: [Claude_Agents](https://github.com/rhahn28/Claude_Agents)
 - **License**: MIT
 
@@ -962,16 +953,8 @@ Remember Everything. Build Anything. *No Tattoos Required.*
 "OMG this is literally me with ChatGPT" 😂
 ```
 
-**Key Comparisons:**
-- Leonard's wall of notes = Your terminal full of context reminders
-- Tattoo needle = Your desperate copy-paste actions  
-- Polaroid photos = Your screenshot management chaos
-- "Remember Sammy Jankis" = "Remember we're using React"
 
 </div>
 
 ---
 
-*Last updated: September 5, 2025*
-*Version: 1.0.0*
-*Status: Production Ready* ✅
